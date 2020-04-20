@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".login">
+
 
     <EditText
-        android:id="@+id/email1"
+        android:id="@+id/email2"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginStart="123dp"
@@ -19,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/password1"
+        android:id="@+id/password2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -29,37 +30,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email1"
+        app:layout_constraintTop_toBottomOf="@+id/email2"
         app:layout_constraintVertical_bias="0.0" />
 
 
+
     <Button
-        android:id="@+id/signUp"
+        android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
-        app:layout_constraintBottom_toTopOf="@+id/reg"
+        app:layout_constraintBottom_toTopOf="@+id/reg2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password1"
+        app:layout_constraintTop_toBottomOf="@+id/password2"
         app:layout_constraintVertical_bias="0.395" />
 
+
     <TextView
-        android:id="@+id/reg"
+        android:id="@+id/reg2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="202dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="201dp"
         android:layout_marginBottom="100dp"
-        android:text="@string/already_have_an_account_login"
+        android:text="DO no have an account? Sign UP"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signUp"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
         app:layout_constraintVertical_bias="0.816" />
 
+
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-

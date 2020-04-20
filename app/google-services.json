@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327079397885",
+    "firebase_url": "https://login-interface-20465.firebaseio.com",
+    "project_id": "login-interface-20465",
+    "storage_bucket": "login-interface-20465.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327079397885:android:679941eca6a90489c2f194",
+        "android_client_info": {
+          "package_name": "com.example.logininterface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327079397885-jhv9php0qlu4d1jg7826tgp2cui72gn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3MDHYslD-08lH_sAV1aV3sZU4FGIOl90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327079397885-jhv9php0qlu4d1jg7826tgp2cui72gn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
